@@ -1,0 +1,62 @@
+[
+	{
+		"id":			"moviepath",
+		"label":		"Movie Output Path",
+		"type":			"text",
+		"default":		"",
+	},
+    
+    {
+		"id":			"tvpath",
+		"label":		"TV Output Path",
+		"type":			"text",
+		"default":		"",
+	},
+    
+    {
+        "id":           "eject",
+        "label":        "Eject disc when complete",
+        "type":         "bool",
+        "default":      "true",
+    },
+    
+    {   "id":           "log",
+        "label":        "Enable logging (warning: generates large file)",
+        "type":         "bool",
+        "default":      "false",
+    },
+    
+    {   "id":           "preset",
+        "label":        "Handbrake Preset",
+        "type":         "enum",
+        "values":       ["Universal", "AppleTV", "Normal", "Classic", "Animation", "Film", "Television"],
+        "default":      "Film",
+    },
+
+    {
+        "id":           "nativelanguage",
+        "label":        "Set your native language",
+        "type":         "enum",
+        "values":       ["eng", "spa", "fre", "swe", "de" ,"dut"],
+        "default":      "eng",
+    },
+    
+    {
+       "id":           "folder",
+        "label":        "Create a folder with same name as video?",
+        "type":         "bool",
+        "default":      "false",
+    },
+    {
+		"id":			"size",
+		"label":		"Approximate file size in MB (movie ripping only)",
+		"type":			"text",
+		"default":		"1200",
+	},
+    {
+       "id":           "twopass",
+        "label":        "Two pass video encoding",
+        "type":         "bool",
+        "default":      "false",
+    }
+]
